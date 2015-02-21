@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Silion Labs Si1064/Si1065 and Si1084/Si1085 wireless MCU SoC (QFN-36 SMD package).</description>
+<packages>
+<package name="QFN-36">
+<description>This is a QFN-36 SMD package for the Silion Labs Si1064/Si1065 and Si1084/Si1085 wireless MCU.</description>
+<wire x1="-2.5" y1="3" x2="2.5" y2="3" width="0.127" layer="51"/>
+<wire x1="2.5" y1="3" x2="2.5" y2="-3" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-3" x2="-2.5" y2="-3" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-3" x2="-2.5" y2="3" width="0.127" layer="51"/>
+<smd name="5" x="-2.45" y="0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="6" x="-2.45" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="7" x="-2.45" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="1" x="-2.45" y="2.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="2" x="-2.45" y="1.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="3" x="-2.45" y="1.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="4" x="-2.45" y="0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="8" x="-2.45" y="-1.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="14" x="-0.25" y="-2.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="-2.45" y="-2.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="9" x="-2.45" y="-1.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="13" x="-0.75" y="-2.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="-1.25" y="-2.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="-1.75" y="-2.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="0.25" y="-2.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="0.75" y="-2.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="1.25" y="-2.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="1.75" y="-2.95" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="2.45" y="-2.25" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="20" x="2.45" y="-1.75" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="21" x="2.45" y="-1.25" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="22" x="2.45" y="-0.75" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="23" x="2.45" y="-0.25" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="24" x="2.45" y="0.25" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="25" x="2.45" y="0.75" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="26" x="2.45" y="1.25" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="27" x="2.45" y="1.75" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="28" x="2.45" y="2.25" dx="0.85" dy="0.3" layer="1" rot="R180"/>
+<smd name="36" x="-1.75" y="2.95" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="35" x="-1.25" y="2.95" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="34" x="-0.75" y="2.95" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="33" x="-0.25" y="2.95" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="32" x="0.25" y="2.95" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="31" x="0.75" y="2.95" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="30" x="1.25" y="2.95" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<smd name="29" x="1.75" y="2.95" dx="0.85" dy="0.3" layer="1" rot="R270"/>
+<circle x="-2.25" y="2.75" radius="0.1" width="0.1" layer="21"/>
+<text x="-2.83" y="-4.48" size="0.6096" layer="27">&gt;Value</text>
+<text x="-2.83" y="3.77" size="0.6096" layer="25">&gt;Name</text>
+<smd name="GND" x="0" y="0" dx="3.6" dy="4.1" layer="1" cream="no"/>
+<rectangle x1="-1" y1="0.75" x2="1.5" y2="1.75" layer="31"/>
+<rectangle x1="-1.5" y1="-0.5" x2="1.5" y2="0.5" layer="31"/>
+<rectangle x1="-1.5" y1="-1.75" x2="1.5" y2="-0.75" layer="31"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SI1085">
+<description>Schematic layout of the Silion Labs Si1064/Si1065 and Si1084/Si1085 wireless MCU SoC (QFN-36 SMD package).</description>
+<wire x1="-25" y1="30" x2="-25" y2="-30" width="0.254" layer="94"/>
+<wire x1="-25" y1="-30" x2="25" y2="-30" width="0.254" layer="94"/>
+<wire x1="25" y1="-30" x2="25" y2="30" width="0.254" layer="94"/>
+<wire x1="25" y1="30" x2="-25" y2="30" width="0.254" layer="94"/>
+<pin name="P2.7/C2D" x="-23.5" y="22.5" rot="R180"/>
+<pin name="XTAL4" x="-23.5" y="17.5" rot="R180"/>
+<pin name="XTAL3" x="-23.5" y="12.5" rot="R180"/>
+<pin name="P1.6" x="-23.5" y="7.5" rot="R180"/>
+<pin name="P1.5" x="-23.5" y="2.5" rot="R180"/>
+<pin name="P1.4" x="-23.5" y="-2.5" rot="R180"/>
+<pin name="XOUT" x="-23.5" y="-7.5" rot="R180"/>
+<pin name="XIN" x="-23.5" y="-12.5" rot="R180"/>
+<pin name="GND_RF@9" x="-23.5" y="-17.5" direction="pwr" rot="R180"/>
+<pin name="GPIO2" x="-23.5" y="-22.5" rot="R180"/>
+<pin name="GPIO1" x="23.5" y="-7.5"/>
+<pin name="GPIO3" x="-17.5" y="-28.5" rot="R270"/>
+<pin name="GPIO0" x="23.5" y="-12.5"/>
+<pin name="RXP" x="-12.5" y="-28.5" rot="R270"/>
+<pin name="RXN" x="-7.5" y="-28.5" rot="R270"/>
+<pin name="TX" x="-2.5" y="-28.5" rot="R270"/>
+<pin name="GND_RF@15" x="2.5" y="-28.5" direction="pwr" rot="R270"/>
+<pin name="GND_RF@17" x="12.5" y="-28.5" direction="pwr" rot="R270"/>
+<pin name="GND_RF@16" x="7.5" y="-28.5" direction="pwr" rot="R270"/>
+<pin name="VDD_RF@18" x="17.5" y="-28.5" direction="pwr" rot="R270"/>
+<pin name="NC@19" x="23.5" y="-22.5" direction="nc"/>
+<pin name="VDD_RF@20" x="23.5" y="-17.5" direction="pwr"/>
+<pin name="IRQ" x="23.5" y="-2.5"/>
+<pin name="P0.6/CNVSTR" x="23.5" y="2.5"/>
+<pin name="P0.5/RX" x="23.5" y="7.5"/>
+<pin name="P0.4/TX" x="23.5" y="12.5"/>
+<pin name="RST/C2CK" x="-17.5" y="28.5" rot="R90"/>
+<pin name="P0.3/XTAL2" x="23.5" y="17.5"/>
+<pin name="P0.2/XTAL1" x="23.5" y="22.5"/>
+<pin name="VBAT+" x="-12.5" y="28.5" rot="R90"/>
+<pin name="DCEN" x="-7.5" y="28.5" rot="R90"/>
+<pin name="VDD_MCU/DC+" x="-2.5" y="28.5" direction="pwr" rot="R90"/>
+<pin name="GND_MCU/VBAT-" x="2.5" y="28.5" rot="R90"/>
+<pin name="GND_MCU/DC-" x="7.5" y="28.5" direction="pwr" rot="R90"/>
+<pin name="P0.0/VREF" x="12.5" y="28.5" rot="R90"/>
+<pin name="P0.1/AGND" x="17.5" y="28.5" rot="R90"/>
+<text x="-16" y="10" size="2.54" layer="95">&gt;Name</text>
+<text x="-16" y="-2" size="2.54" layer="96">&gt;Value</text>
+<wire x1="-18" y1="-22" x2="17" y2="-22" width="0.254" layer="94"/>
+<wire x1="17" y1="-22" x2="17" y2="22" width="0.254" layer="94"/>
+<wire x1="17" y1="22" x2="-14" y2="22" width="0.254" layer="94"/>
+<wire x1="-14" y1="22" x2="-18" y2="18" width="0.254" layer="94"/>
+<wire x1="-18" y1="18" x2="-18" y2="-22" width="0.254" layer="94"/>
+<text x="0" y="-14" size="1.27" layer="94" align="center">GND_RF
+(ePAD)</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SI1085" prefix="U">
+<description>Silion Labs Si1064/Si1065 and Si1084/Si1085 wireless MCU SoC (QFN-36 SMD package).</description>
+<gates>
+<gate name="G$1" symbol="SI1085" x="0" y="0"/>
+</gates>
+<devices>
+<device name="QFN" package="QFN-36">
+<connects>
+<connect gate="G$1" pin="DCEN" pad="34"/>
+<connect gate="G$1" pin="GND_MCU/DC-" pad="31"/>
+<connect gate="G$1" pin="GND_MCU/VBAT-" pad="32"/>
+<connect gate="G$1" pin="GND_RF@15" pad="15"/>
+<connect gate="G$1" pin="GND_RF@16" pad="16"/>
+<connect gate="G$1" pin="GND_RF@17" pad="17"/>
+<connect gate="G$1" pin="GND_RF@9" pad="9"/>
+<connect gate="G$1" pin="GPIO0" pad="21"/>
+<connect gate="G$1" pin="GPIO1" pad="22"/>
+<connect gate="G$1" pin="GPIO2" pad="10"/>
+<connect gate="G$1" pin="GPIO3" pad="11"/>
+<connect gate="G$1" pin="IRQ" pad="23"/>
+<connect gate="G$1" pin="NC@19" pad="19"/>
+<connect gate="G$1" pin="P0.0/VREF" pad="30"/>
+<connect gate="G$1" pin="P0.1/AGND" pad="29"/>
+<connect gate="G$1" pin="P0.2/XTAL1" pad="28"/>
+<connect gate="G$1" pin="P0.3/XTAL2" pad="27"/>
+<connect gate="G$1" pin="P0.4/TX" pad="26"/>
+<connect gate="G$1" pin="P0.5/RX" pad="25"/>
+<connect gate="G$1" pin="P0.6/CNVSTR" pad="24"/>
+<connect gate="G$1" pin="P1.4" pad="6"/>
+<connect gate="G$1" pin="P1.5" pad="5"/>
+<connect gate="G$1" pin="P1.6" pad="4"/>
+<connect gate="G$1" pin="P2.7/C2D" pad="1"/>
+<connect gate="G$1" pin="RST/C2CK" pad="36"/>
+<connect gate="G$1" pin="RXN" pad="13"/>
+<connect gate="G$1" pin="RXP" pad="12"/>
+<connect gate="G$1" pin="TX" pad="14"/>
+<connect gate="G$1" pin="VBAT+" pad="35"/>
+<connect gate="G$1" pin="VDD_MCU/DC+" pad="33"/>
+<connect gate="G$1" pin="VDD_RF@18" pad="18"/>
+<connect gate="G$1" pin="VDD_RF@20" pad="20"/>
+<connect gate="G$1" pin="XIN" pad="8"/>
+<connect gate="G$1" pin="XOUT" pad="7"/>
+<connect gate="G$1" pin="XTAL3" pad="3"/>
+<connect gate="G$1" pin="XTAL4" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
+</eagle>
